@@ -1,0 +1,55 @@
+<main>
+
+    <!-- Background fully Image -->
+    <div class="w-full">
+        <img src="../../../assets/imgs/login/loginBackground.jpg" class="loginBackgroundImg rounded-s-lg"/>
+    </div>
+
+    <!-- Login Form  -->
+    <div class="loginContainer p-20 pt-10 pb-15">
+        <!-- Logo -->
+        <div class="flex justify-center rounded-3xl">
+            <img src="../../../assets/logo.jpg" class="logoLogin">
+        </div>
+
+        <div class="flex justify-center w-full">
+            <div class="grid grid-rows-1 gap-2 w-96">
+                    <h1 class="flex justify-center m-0 p-0 ">Log In</h1>
+                <form>
+                    <div class="grid grid-rows-1">
+                        <label for="email" class="pb-1 font-bold">Email</label>
+                        <input 
+                            pInputText
+                            id="email" 
+                            aria-describedby="username-help"
+                            formControlName="email"/>
+                    </div>
+                    <div class="grid grid-rows-1 pt-3">
+                        <label for="password" class="pb-1 font-bold">Password</label>
+                        <input 
+                            pInputText
+                            id="password" 
+                            aria-describedby="username-help "
+                            formControlName="password"
+                            type="password"/>
+                    </div>
+                    <div class="pt-3">
+                        <button 
+                        type="submit"
+                        pButton 
+                        pRipple 
+                        label="Submit" 
+                        class="p-button-success w-full rounded-3xl ">
+                        </button>
+                    </div>
+                    <div>
+
+                    </div>
+                    <div>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
